@@ -7,7 +7,7 @@ const port = 3000;
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
-app.use(cors("*"));
+app.use(cors()); 
 app.use(express.json());
 
 //mounting 
