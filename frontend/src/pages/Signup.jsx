@@ -59,7 +59,7 @@ export const Signup = () => {
 
                 try {
                   const response = await axios.post(
-                    "http://localhost:3000/api/v1/user/signup",
+                    "https://paytm-uh9g.onrender.com/api/v1/user/signup",
                     {
                       email: email,
                       firstName: firstName,

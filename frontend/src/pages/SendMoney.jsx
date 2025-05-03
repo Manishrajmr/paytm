@@ -33,7 +33,7 @@ export const SendMoney = () =>{
                            <input onChange={(e)=>{setAmount(e.target.value)}} type="number" id="amount" placeholder="Enter Amount" className="flex mt-5 h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm" />
                         </div>
 
-                        <button onClick={()=>{axios.post("http://localhost:3000/api/v1/account/transfer",{
+                        <button onClick={()=>{axios.post("https://paytm-uh9g.onrender.com/api/v1/account/transfer",{
                             to:id,
                             amount 
                         },
