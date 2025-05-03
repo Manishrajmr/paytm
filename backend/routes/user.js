@@ -6,7 +6,7 @@ const JWT_SECRET = require('../config');
 const jwt = require('jsonwebtoken');
 const {Account} = require("../db");
 
-const {authMiddleware} = require("../routes/middleware");
+const {authMiddleware} = require("../middleware");
 
 //signup login routes  
 
