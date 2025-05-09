@@ -1,0 +1,1 @@
+A secure and scalable digital payment application inspired by platforms like Paytm, built using React.js, Express.js, MongoDB, and JWT Authentication. This full-stack project enables users to seamlessly send and receive payments while ensuring data privacy and user authentication.
