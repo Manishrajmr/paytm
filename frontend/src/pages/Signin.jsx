@@ -37,7 +37,7 @@ export const Signin = () =>{
             });
 
             localStorage.setItem("token", response.data.token);
-            navigate("/dashboard");
+            navigate(`/dashboard?name=${firstName+lastName}`);
               
            }
            catch(error){
