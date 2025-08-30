@@ -14,7 +14,7 @@ export const Appbar = () =>{
     return <div className="shadow h-14 flex items-center bg-black text-white justify-between">
 
         <div className="flex flex-col justify-center h-full ml-4 text-white  ">
-          PayTM App
+          PayMe
         </div>
 
         <div className="flex items-center">
@@ -23,7 +23,7 @@ export const Appbar = () =>{
             
             <div className="rounded-full h-10 w-10 bg-green-500 flex justify-center mt-1 mr-2">
                 <div className="flex flex-col justify-center h-full text-xl cursor-pointer">
-                    U
+                    {name.charAt(0)}
                 </div>
             </div>
 

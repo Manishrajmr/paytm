@@ -5,7 +5,7 @@ import { Users } from "../components/Users"
 
 export const Dashboard = () => {
 
-  console.log(name);
+  
     return <div className="mx-auto">
         <Appbar />
 
